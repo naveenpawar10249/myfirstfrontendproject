@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link rel="stylesheet" href="css/bootstrap.min.css">
+            <script src="js/bootstrap.min.js"></script>
+<style>
+    .container-fluid 
+    {
+    background-color:#022496;
+    height: 134px;
+    margin-top: 0px;
+    }
+    .login
+    {
+    position: absolute;
+    top: 56px;
+    height: 34px;
+    width: 72px;
+    right: 312px;
+    color: white;
+    font-size: 18px;
+    border: none;
+    background-color: #022496;
+    }
+    .signup
+    {
+    position: absolute;
+    top: 56px;
+    right: 227px;
+    width: 72px;
+    height: 34px;
+    background-color: #022496;
+    color: white;
+    font-size: 18px;
+    border: none;
+    }
+    .c1
+    {
+    position: absolute;
+    left: 478px;
+    width: 220px;
+    top: 56px;
+    }
+    .c2
+    {
+    position: absolute;
+    left: 722px;
+    width: 220px;
+    top: 56px;
+    }
+   .chk1
+   {
+    position: absolute;
+    top: 107px;
+    left: 785px;
+   }
+   .ip
+   {
+    color: white;
+    position: absolute;
+    top: 107px;
+    left: 803px;
+   }
+   .container
+   {
+    width: 655px;
+    left: 694px;
+    height: 523px;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+   }
+    .fname
+   {
+    width: 335px;
+    position: relative;
+    left: 04px;
+    top: 20px;
+   }
+    .sname
+    {
+    width: 229px;
+    position: absolute;
+    top: 89px;
+    right: 38px;
+    }
+    .email
+    {
+    width: 424px;
+    left: 18px;
+    top: 147px;
+    position: absolute;
+    }
+    .pass
+    {
+        position: absolute;
+    top: 209px;
+    width: 229px;
+    left: 19px;
+    }
+    .conpass
+    {
+    position: absolute;
+    top: 269px;
+    width: 229px;
+    left: 20px;
+    }
+    .date
+    {
+    position: absolute;
+    top: 326px;
+    left: 22px;
+    width: 142px;
+    }
+    .input1
+    {
+    position: absolute;
+    top: 374px;
+    left: 39px;
+    }
+    .input2
+    {
+        position: absolute;
+    top: 374px;
+    left: 162px;
+    }
+    #genf
+    {
+    position: absolute;
+    top: 374px;
+    left: 60px;
+    font-size: 16px;
+    font-family: inherit;
+    }
+    h1
+    {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 1px 0 1px black;
+        
+    }
+    #genm
+    {
+    position: absolute;
+    top: 374px;
+    left: 189px;
+    font-size: 15px;
+    font-family: inherit;
+    }
+    .sign
+    {
+        position: absolute;
+    top: 458px;
+    left: 209px;
+    width: 226px;
+    height: 44px;
+    background-blend-mode: inherit;
+    background-color: #1e0f79;
+    border: none;
+    font-size: 27px;
+    color: #ffffff;
+    }
+    .agg
+    {
+        position: absolute;
+    top: 407px;
+    width: 500px;
+    left: 26px;
+    font-size: 12px;
+    font-family: inherit
+    }
+</style>
+    </head>
+    <body>
+<form action="#" method="POST" role="form">
+<div class="container-fluid">
+<div class="col-md-4">
+    <div class="form-group c1">
+        <input type="text" class="form-control" id="" placeholder="username">
+    </div>
+    <div class="form-group c2">
+            <input type="password" name="" id="input"  placeholder="Password" class="form-control" required="required" title="">
+    </div>
+   
+</div>
+</div>
+<button type="submit" class="login">Login</button>
+<button type="submit" class="signup">Cancel</button>
+<input type="checkbox" class="chk1"></input><p  class="ip">forgot password</p>
+</form>
+</body>
+<form> 
+    <div class="col-md-6">
+        <div class="container">
+            <h1> Create an account</h1>
+            <textarea name="username" id="input" class="form-control fname" rows="1" required="required">First name</textarea>
+            <textarea name="username" id="input" class="form-control sname" rows="1" required="required">Surname </textarea>
+            <textarea name="email" id="input" class="form-control email" rows="1" required="required" >Mobile number or email address</textarea>
+            <textarea name="password" id="input" class="form-control pass" rows="1" required="required">Password</textarea>
+            <textarea name="password" id="input" class="form-control conpass" rows="1" required="required">Confirm Password</textarea>
+            <input type="date" value="date" class="date">
+            <input type="radio" name="radio" id="input" class="input1" value="radio" checked="unchecked">
+            <p id="genf">Female</p></input>
+            <input type="radio" name="radio" id="input" value="radio" class="input2" checked="unchecked">
+            <p id="genm" >Male</p>
+            <p class="agg">By clicking Sign Up, you agree to our Terms,
+                 Data Policy and Cookie Policy. 
+                You may receive SMS notifications from us and can opt out at any time</p>
+            <input type="button" value="Signup" class="sign">
+        </div>
+    </div>
+</form>
+</html>

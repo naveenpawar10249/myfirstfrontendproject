@@ -1,0 +1,296 @@
+
+.navbar
+{
+    background-color: black;
+    font-family: 'Times New Roman', Times, serif;
+    color: aliceblue;
+    height:60px;
+    margin: 50px 0px 0px;
+    position: absolute;
+    top:10px;
+    opacity: 0.9;   
+}                   
+.img-responsive
+{
+    width: 05%;
+    position: relative;
+    height: 63px;           
+    left: -8px;
+}
+
+.navbtn1                                                                                    
+{
+    position: absolute;
+    top: 60px;
+    left: 310px;
+    height: 60px;
+    width: 129px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border: none;
+    font-size: 175%;
+}
+.navbtn2
+{
+    position: absolute;
+    top: 60px; 
+    left: 439px ;
+    height: 60px;
+    width: 145px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border: none;
+    font-size: 175%;
+}                       
+.navbtn3
+{
+    position: absolute;
+    top: 60px;
+    left: 584px;
+    height: 60px;
+    width: 133px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border: none;
+    font-size: 175%;
+}
+.navbtn4
+{
+    position: absolute;
+    top: 60px;
+    left: 717px;
+    height: 60px;
+    width: 118px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border: none;
+    font-size: 175%;
+}
+.navbtn5
+{
+    position: absolute;
+    top: 60px;
+    left: 835px;
+    height: 60px;
+    width: 131px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border: none;
+    font-size: 175%;
+    border: 1px;
+    border-color: white;
+}
+.navbtn6
+{
+    position: absolute;
+    top: 60px;  
+    left: 966px;
+    height: 60px;
+    width: 113px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border: none;
+    font-size: 175%;
+}
+.form-control
+{
+    position: absolute;
+    width: 269px;
+    top: 61px;
+    font-size: 16px;
+    right: 1px;
+    color: white;
+    border-style: none;
+    background-color: black;
+}
+textarea.form-control
+{
+    height: auto;
+    padding-left: 92px;
+    position: absolute;
+    padding-top: 8px;
+    font-size: 15px;
+}
+.glyphicon {
+    
+    position: absolute;
+    top: 82px;
+    right: 9px;
+    font-size: 19px;
+    color: whitesmoke;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+}
+.glyphicon-share-alt
+{
+    color: white;
+    position: absolute;
+    right: 331px;
+    top: 306px;
+}
+.navbtn1:hover 
+{
+    position: absolute;;
+background-color: purple;
+display: block;
+}
+.navbtn2:hover
+{
+background-color: purple;
+}
+.navbtn3:hover
+{
+background-color: purple;
+}
+.navbtn4:hover
+{
+background-color: purple;
+}
+.navbtn5:hover
+{
+background-color: purple;
+}
+.navbtn6:hover
+{
+background-color: purple;
+}
+con1 
+{
+    display:block;
+    top:120px;
+    font-size: 20px;
+    position: absolute;
+    text-decoration: none;
+    left: 419px;
+    background-color: black;
+    width: 246px; 
+    padding: 1px;
+    margin: 0px;
+  
+}
+con1:hover{
+    position: absolute;
+    display: block;
+}
+ul li:hover
+{
+    display:block;
+    background-color: purple;
+    position:absolute; 
+}
+ul li
+{
+    position: absolute ;
+    display:block;
+color: white;
+list-style-type:none;
+height: 47px;
+font-size: 21px;
+padding-left: 25px;
+}
+.font-logo
+{
+    font-family: cursive;
+    color: white;
+    position: absolute;
+    top: 5px;
+    left: 60px;
+    font-size: 31px;
+}
+.icon
+{
+    font-size: 50px;
+    position: absolute;
+}
+.container-fluid 
+{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    top: 243px;
+    height: 350px;
+    opacity: 1;
+}
+.container-fluid2{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    height: 350px;
+    opacity: 1;
+    top: 596px;
+}
+.main-img1
+{
+    position: absolute;
+    width: 425px;
+    left: 21px;
+    height: 210px;
+    top: 53px;
+}
+.txt1 {
+    position: absolute;
+    font-size: 32px;
+    color: white;
+    font-family: cursive
+}
+.txt2 {
+    position: absolute;
+    font-size: 10px;
+    color: white;
+    font-family: cursive;
+    bottom: 14px;
+    left: 107px;
+    font-size: 17px;
+}
+.main-img2
+{
+    position: absolute;
+    width: 400px;
+    height: 210px;
+    right: 26px;
+    top: 53px;
+    
+}
+.main-img3
+{
+    position: absolute;
+    width: 425px;
+    height: 210px;
+    right: 23px;
+    top: 53px;
+}
+.main-img4
+{
+    position: absolute;
+    width: 425px;
+    height: 283px;
+    right: 28px
+}
+.main-img5
+{
+    position: absolute;
+    width: 425px;
+    height: 283px;
+    right: -16px
+}
+.main-img6
+{
+    position: absolute;
+    width: 425px;
+    height: 283px;
+    right: -60px
+}
+
+
